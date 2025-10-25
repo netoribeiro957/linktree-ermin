@@ -1,0 +1,92 @@
+body {
+  font-family: "Gabarito", sans-serif;
+  background-color: #5e618a;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.avatar img {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.container {
+  width: 334px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 40px 0;
+}
+
+header h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.links a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 40px;
+  padding: 10px;
+  background-color: #1f2038;
+  -webkit-box-shadow: 6px 6px 0px 1px #000000;
+  box-shadow: 6px 6px 0px 1px #000000;
+}
+
+.links a {
+  background-repeat: no-repeat;
+  background-position: center left 25px;
+  background-size: 20px 20px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.links a:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 10px 10px 0 0 #000;
+}
+
+.links a.gmail {
+  background-image: url(../assets/email.svg);
+}
+
+.links a.whatsapp {
+  background-image: url(../assets/whatsapp.svg);
+}
+
+.links a.github {
+  background-image: url(../assets/github.svg);
+}
+
+.links a.instagram {
+  background-image: url(../assets/instagram.svg);
+}
+
+footer {
+  text-align: center;
+  padding: 80px 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
